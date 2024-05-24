@@ -8,8 +8,6 @@ import bcrypt from 'bcrypt';
 export const authOptions = {
   providers: [
     GithubProvider({
-      clientId: 'Ov23liuxZC1QE9GaVV5U',
-      clientSecret: '0a25563c6f9073dd73438a9f6bc2586690755f64',
     }),
     //다른 로그인 방법 추가
     // id/pw 
